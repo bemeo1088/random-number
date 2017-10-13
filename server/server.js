@@ -20,6 +20,10 @@ app.post('/setup', function(req, res){
     ran = random;
 
 })
+
+
+
+
 var guessResponses = []; //array to send back to client side
 app.post('/game', function(req, res){
     console.log(req.body.guesses);
