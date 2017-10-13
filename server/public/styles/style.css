@@ -1,0 +1,52 @@
+#winner {
+    text-align: center;
+    color: deepskyblue;
+    font-size: 60px;
+    font-family: 'Rye', cursive;
+}
+
+#gameRestart {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: 24px;
+}
+#gameRestart:hover {
+    background-color: blueviolet
+}
+
+#startButton {
+    margin-top: 10px;
+}
+
+.numberSelector {
+    margin-right: 10px;
+}
+
+.show{
+    display: inherit;
+}
+
+.hide{
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 10px;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    background: #e7f4f5; /* Old Browsers */
+    background: -webkit-radial-gradient(center,#e7f4f5,#3d5589); /*Safari 5.1-6*/
+    background: -o-radial-gradient(center,#e7f4f5,#3d5589); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(center,#e7f4f5,#3d5589); /*Fx 3.6-15*/
+    background: radial-gradient(ellipse at center, #e7f4f5, #3d5589); /*Standard*/
+}

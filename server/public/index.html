@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <script src="vendors/jquery-3.2.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" />
+ 
+    
+    </head>
+    <body>
+        <div id="setup">
+            <h2>Setup</h2>
+            <p>Max Number:</p>
+            <form>
+                <input class="numberSelector" type="radio" name="maxNumber" value="5">5<br> 
+                <input class="numberSelector" type="radio" name="maxNumber" value="25">25<br> 
+                <input class="numberSelector" type="radio" name="maxNumber" value="50">50<br>
+                <button id="startButton">Start</button>
+            </form>
+        </div>
+        
+        <div id="playmode" class="hide">
+            <h2>Play Mode</h2>
+       
+        <h3>Maximum Number: <span id="max"></span></h3>
+        <h3>Total Rounds Played: <span id="roundsTotal"></span> </h3>
+        <form>
+            Player 1:
+            <input id="player1" type="text" />Hint:
+            <span id="player1hint"></span>
+            <br> Player 2:
+            <input id="player2" type="text" />Hint:
+            <span id="player2hint"></span>
+            <br> Player 3:
+            <input id="player3" type="text" />Hint:
+            <span id="player3hint"></span>
+            <br> Player 4:
+            <input id="player4" type="text" />Hint:
+            <span id="player4hint"></span>
+            <br>
+            <button id="submitButton">Submit</button>
+            <button id="cancelButton">Cancel</button>
+        </form>
+        </div>
+    </body>
+</html>
